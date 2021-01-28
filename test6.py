@@ -10,7 +10,6 @@ dst=cv2.addWeighted(img1,0.3,img2,0.3,0)
 
 cv2.namedWindow('b', cv2.WINDOW_NORMAL)
 cv2.imshow('b',img)
-
 cv2.imwrite('test.jpg',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
