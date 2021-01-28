@@ -8,9 +8,7 @@ img = cv2.imread('test1.jpg',1)
 # b[300:200,200:100,2]=0
 # print(b)
 # roi=img[549:603,145:168]
-
 # img[77:131,680:703]=roi
-
 # print(img)
 # plt.imshow(img, cmap = 'gray', interpolation = 'bicubic')
 # plt.xticks([]), plt.yticks([]) 
