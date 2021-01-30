@@ -2,11 +2,8 @@ import dlib
 import cv2
 import imutils
 
-
 # 讀取照片圖檔
 img = cv2.imread('test1.jpg')
-
-
 # 縮小圖片
 img = imutils.resize(img, width=1280)
 
